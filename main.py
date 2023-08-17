@@ -12,19 +12,20 @@ inws = inwb.active
 print(inws["A1:ABX1"])
 
 fieldnames = [
-    "Field_1: Ausweichoption (negativ) oder Anzahl ausgewählter Optionen",
-    "Field_1: Tiere &amp; Biologie",
-    "Field_1: Technologie",
-    "Field_1: Kleidung",
-    "Field_1: Energie",
-    "Field_1: Essen",
-    "Field_1: Gartenarbeit",
-    "Field_1: Gesundheit / Medizin",
-    "Field_1: Haushalt",
-    "Field_1: Lernen",
-    "Field_1: Beleuchtung",
-    "Field_1: App oder Intelligenz",
-    "Field_1: Nanotechnologie",
-    "Field_1: Sport",
-    "Field_1: andere"
+    "Field_{}: Ausweichoption (negativ) oder Anzahl ausgewählter Optionen",
+    "Field_{}: Tiere &amp; Biologie",
+    "Field_{}: Technologie",
+    "Field_{}: Kleidung",
+    "Field_{}: Energie",
+    "Field_{}: Essen",
+    "Field_{}: Gartenarbeit",
+    "Field_{}: Gesundheit / Medizin",
+    "Field_{}: Haushalt",
+    "Field_{}: Lernen",
+    "Field_{}: Beleuchtung",
+    "Field_{}: App oder Intelligenz",
+    "Field_{}: Nanotechnologie",
+    "Field_{}: Sport",
+    "Field_{}: andere"
     ]
+
