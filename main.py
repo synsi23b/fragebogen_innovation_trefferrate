@@ -1,6 +1,6 @@
 from pathlib import Path
 import pandas
-from helper import correct_inc, correct_rad
+from helper import correct_inc, correct_rad, correct_inc_new, correct_rad_new
 
 FOLDER = Path(__file__).resolve().parent
 INFILE = FOLDER / "w3_700-22.xlsx"
@@ -54,9 +54,9 @@ for ind in df.index:
     inr = df[interview][ind]
     cnd = df[condition][ind]
     if cnd == "I":
-        correct = correct_inc
+        correct = correct_inc_new
     elif cnd == "R":
-        correct = correct_rad
+        correct = correct_rad_new
     else:
         raise ValueError("Unknown condition")
     data = [inr]
